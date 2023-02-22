@@ -1,0 +1,54 @@
+body {
+  background-color: white;
+  background-color: var(--bs-body-color);
+}
+.header {
+  padding: 0.5em;
+  display: flex;
+  gap: 2%;
+  align-items: center;
+  justify-content: center;
+  background-color: #6f2bf5;
+}
+.logo {
+  margin: 0.5vw;
+  width: 5%;
+}
+.header h1 {
+  letter-spacing: 0.05em;
+  color: #f7f6f9;
+  font-size: 2.5em;
+}
+.container {
+  margin-top: 1.5%;
+  color: white;
+  font-size: 1.3em;
+  padding-bottom: 3rem;
+}
+.card {
+  margin: 2rem auto auto;
+  width: 18rem;
+  color: var(--bs-body-color);
+}
+.logo-linkedin {
+  width: 1.5rem;
+}
+.card .font-img {
+  margin: 1rem auto;
+  width: 15rem;
+}
+.row .col-3::after {
+  content: "";
+  width: 18rem;
+}
+p::selection {
+  background-color: #6e2bf546;
+}
+@media screen and (max-width: 750px) {
+  .logo {
+    width: 5%;
+  }
+  .header h1 {
+    font-size: 1.47em;
+  }
+}
